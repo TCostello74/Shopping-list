@@ -1,6 +1,6 @@
 const request = require('supertest');
-const app = require('./server'); 
-let items = require('./fakeDb');
+const app = require('../server'); 
+let items = require('../fakeDb');
 
 let popsicle = { name: "popsicle", price: 1.45 };
 
